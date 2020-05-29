@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+                                    /*  Navigation bar */
+.nav-links {
+    padding: 20px;
+}
+ul li {
+    display: inline-block;
+    padding: 20px 50px;
+   
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    margin-left: 10%;
+    position: fixed;
+}
+ul li a:hover {
+    background-color: rgb(31, 18, 31);
+    padding: 20px;
+    color: white;
+    transition: ease 0.4s;
+
+}
+
+                                    /* WEB PAGE TEXT */
+
+                                
+.body-header {
+    text-align: center;
+    color:white;
+    font-size: 2.5rem;
+    font-family: var(--Lexend);
+    margin-top: 7%;
+    transition: ease-out 0.9s;
+    position: relative;
+}
+.sub-text {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-family: var(--Lexend);
+    transition: alternate-reverse 0.5s;
+}
+.home-paragraph {
+    text-align: center;
+    margin-top: 5%;
+    transition: ease-in 4.0s;
+    cursor: auto;
+}
+
+                                /* BODY */
+
+body {
+background-color: rgb(85, 41, 85);
+}   
+
+                            /*  BUTTON CONFIG   */
+
+.readmore{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: var(--Livvic);
+    cursor: pointer;
+    margin-left: 42%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.readmore:hover {
+    background-color: purple;
+    color: white;
+    transition: ease-in 0.9s;
+}
